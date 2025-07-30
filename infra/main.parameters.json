@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": { "value": "eastus2" },
+    "sku": { "value": "Standard" },
+    "repositoryUrl": { "value": "https://github.com/qkfang/demo11-lego-web" },
+    "branch": { "value": "main" },
+    "environmentName": { "value": "prod" }
+  }
+}
